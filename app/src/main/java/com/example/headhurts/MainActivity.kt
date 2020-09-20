@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private fun mySetBackground(id: Int) {
         for( i in arrayView.indices) {
             if(arrayView[i].id == id)
-                arrayView[i].setBackgroundColor(Color.BLACK)
+                arrayView[i].setBackgroundColor(Color.parseColor("#80333639"))
             else
                 arrayView[i].setBackgroundColor(Color.TRANSPARENT)
         }
